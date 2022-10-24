@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Checkout </title>
+
+    <style>
+
+        .allBox{
+            /* display: block;
+            margin: auto 50%; */
+            display: block;
+            margin: auto;
+            width: 450px;
+            height: 474px;
+            background-color: white;
+            border: 12px solid #FED132;
+        }
+        .email{
+            display: block;
+            margin: auto;
+            width: 400px;
+            height: 140px;
+            padding-top: 32px;
+            /* padding: 81px 40px 30px 40px; */
+        }
+        .email-1{
+            padding-bottom: 16px;
+            padding-left: 16px;
+            padding-top: 16px;
+        }
+        .email-2 input{
+            display: block;
+            margin: auto;
+            width: 368px;
+            height: 41px;
+        }
+        .ship-to{
+            margin-top: 8px;
+            width: 400px;
+            height: 140px;
+            display: block;
+            margin: auto;
+            /* padding: 10px 40px 30px 40px; */
+        }
+        .ship-to-1{
+            padding-left: 16px; 
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .ship-to-2{
+            padding-left: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .ship-to-3{
+            padding-left: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .ship-to-4{
+            padding-left: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .delivery{
+            display: block;
+            margin: auto;
+            width: 400px;
+            height: 140px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            /* padding: 10px 40px 30px 40px; */
+        }
+        .delivery-1{
+            padding-left: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .delivery-2{
+            padding-left: 16px;
+            padding-top: 8px;
+            padding-bottom: 16px;
+        }
+        .delivery-3{
+            padding-left: 16px;
+            padding-top: 8x;
+            padding-bottom: 8px;
+        }
+        .delivery-4{
+            padding-left: 16px;
+            padding-top: 8px;
+            padding-bottom: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="allBox">
+        <div class="email">
+            <div class="email-1">
+                <label for="e-Mail"> Email </label>
+            </div>
+            <div class="email-2">
+                <input type="email" name="e-Mail" placeholder="Enter Text" class="emailBox" id="email-1">
+            </div>
+        </div>
+        <div class="ship-to">
+            <div class="ship-to-1">
+                <label for="shipTo"> Ship To </label>
+            </div>
+            <div class="ship-to-2">
+                <input type="radio" name="shipTo" id="shipTo"> 
+                <span> 221B Bakery St., London, U.K. </span>
+            </div>
+            <div class="ship-to-3">
+                <input type="radio" name="shipTo" id="shipTo"> 
+                <span> 32 Windsor Gardens, London, U.K. </span> 
+            </div>
+            <div class="ship-to-4">
+                <input type="radio" name="shipTo" id="shipTo"> 
+                <span> 17 Cherry Tree Lane, London, U.K. </span> 
+            </div>
+        </div>
+        <div class="delivery">
+            <div class="delivery-1">
+                <label for="deliveryMode"> Delivery </label>
+            </div>
+            <div class="delivery-2">
+                <input type="radio" name="deliveryMode" id="deliveryMode">
+                <span> Standart Shipping </span>
+            </div>
+            <div class="delivery-3">
+                <input type="radio" name="deliveryMode" id="deliveryMode">
+                <span> 2-Day Shipping </span>
+            </div>
+            <div class="delivery-4">
+                <input type="radio" name="deliveryMode" id="deliveryMode">
+                <span> Overnight Shipping </span>
+            </div>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>
